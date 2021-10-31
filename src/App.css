@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+
+*{
+  font-family: 'Satoshi', sans-serif;
+font-family: 'Cabinet Grotesk', sans-serif;
+}
+
+body{
+  background-color: #D9DFE3;
+}
