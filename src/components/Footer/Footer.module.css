@@ -1,5 +1,5 @@
 .footer {
-  border-top: 1px solid black;
+  border-top: 1px solid #d0d9ce;
   padding: 10px;
   padding: 18px 15px 15px;
   height: 100%;
@@ -17,6 +17,7 @@
 
 .links a {
   color: gray;
+  font-size: 16px;
   /* color: white; */
 }
 
