@@ -29,7 +29,7 @@ function App() {
         <br />
         <Quote />
         <br />
-        <h1>Featured Projects</h1>
+        <h1 className="featured">Featured Projects</h1>
         <Projects data={cultfit} />
         <Projects data={movieApp} />
 

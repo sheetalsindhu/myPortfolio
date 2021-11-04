@@ -29,13 +29,17 @@
 } */
 
 .projects_section {
-  text-align: right;
+  text-align: left;
   padding: 10px;
-  background-color: blanchedalmond;
-  border-bottom: 1px solid black;
+  /* background-color: blanchedalmond; */
+  border-bottom: 1px solid #d0d9ce;
 }
 
 .project_title {
   font-size: 20px;
   margin-bottom: 20px;
+}
+
+.project_info {
+  color: gray;
 }
