@@ -1,20 +1,19 @@
-
-import styles from "./Navbar.module.css"
+import styles from "./Navbar.module.css";
 
 function Navbar() {
-    return (
-      <>
-        <div className={styles.navbar}>
-          <div>
-            <h1>About</h1>
-          </div>
-
-          <div>
-            <h1>Projects</h1>
-          </div>
+  return (
+    <>
+      <div className={styles.navbar}>
+        <div>
+          <a href="/about">About</a>
         </div>
-      </>
-    );
+
+        <div>
+          <a href="/projects">Projects</a>
+        </div>
+      </div>
+    </>
+  );
 }
 
 export default Navbar;

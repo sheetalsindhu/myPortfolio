@@ -12,6 +12,11 @@
   flex-direction: row;
   margin-top: 70px;
   justify-content: space-between;
+  color: gray;
+}
+
+.links a {
+  color: gray;
 }
 
 .tags {

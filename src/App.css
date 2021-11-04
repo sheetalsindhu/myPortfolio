@@ -46,5 +46,5 @@
 }
 
 body {
-  background-color: #d9dfe3;
+  background: url("http://api.thumbr.it/whitenoise-1000x1000.png?background=12121200&noise=4d4d4d&density=62&opacity=77");
 }

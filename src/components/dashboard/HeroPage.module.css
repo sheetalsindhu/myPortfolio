@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   gap: 33px;
-  background-color: pink;
+  /* background-color: pink; */
   padding: 10px;
 }
 
@@ -31,39 +31,8 @@
   width: 100%;
 }
 
-/* 
 .quote_section {
   font-size: 64px;
   line-height: 30px;
   padding: 10px;
 }
-
-.projects_section {
-  display: flex;
-  align-items: center;
-  gap: 1268px;
-}
-
-.projects_section:hover {
-  display: flex;
-  align-items: center;
-  padding: 0px 30px;
-  gap: 1200px;
-  background-image: url("https://res.cloudinary.com/practicaldev/image/fetch/s--8hY3GQ04--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/rq48n957djcp028jlv59.jpg")
-    0 0 no-repeat fixed;
-  height: 100%;
-  overflow: hidden;
-  color: #ffffff;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.project_title {
-  font-size: 32px;
-}
-
-.project_info {
-  font-size: 20px;
-  text-align: left;
-  line-height: 10px;
-} */
