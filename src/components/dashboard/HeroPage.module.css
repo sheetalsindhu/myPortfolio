@@ -18,15 +18,19 @@
   text-align: center;
   width: 100%;
   margin-top: 60px;
-  font-size: 5vw;
+  font-size: 30px;
   line-height: 9.5vw;
 }
 
-.name_section:first-child > h1 {
+.name_section h1:nth-child(1) {
   font-weight: bolder;
 }
 
 .image_section > img {
   height: 100%;
   width: 100%;
+}
+
+.cont {
+  animation: slideup 0.7s ease-out;
 }

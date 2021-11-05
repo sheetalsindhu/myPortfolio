@@ -16,3 +16,7 @@ a {
   font-weight: 600;
   color: #d0d9ce;
 }
+
+.navbar {
+  animation: slideup 0.7s ease-out;
+}
