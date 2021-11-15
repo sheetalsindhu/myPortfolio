@@ -9,7 +9,7 @@ function Navbar() {
         </div>
 
         <div className={styles.navLinks}>
-          <a href="/projects">Projects</a>
+          <a href="#projects">Projects</a>
         </div>
       </div>
     </>

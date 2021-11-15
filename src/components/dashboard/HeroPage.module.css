@@ -7,6 +7,24 @@
   padding: 10px;
 }
 
+.h1 {
+  font-size: 56px;
+  font-weight: 900;
+}
+
+.h2 {
+  font-family: "Telma", cursive;
+}
+
+.subHeading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: right;
+  margin-bottom: 20px;
+  margin-left: 77px;
+}
+
 .name_section {
   display: flex;
   justify-content: center;
@@ -15,10 +33,17 @@
   text-align: center;
   width: 100%;
   margin-top: 60px;
-  font-size: 24px;
+  line-height: 40px;
 }
 
 .image_section > img {
   height: 100%;
   width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .name_section {
+    font-size: 62px;
+    background-color: rgb(92, 92, 92);
+  }
 }

@@ -1,4 +1,5 @@
 import styles from "./Projects.module.css";
+import { FiGithub } from "react-icons/fi";
 
 function Projects({ data }) {
   return (
@@ -14,12 +15,18 @@ function Projects({ data }) {
         </div>
       </div> */}
 
-      <div className={styles.projects_section}>
+      <div id="projects" className={styles.projects_section}>
         <button className={(styles.custom_btn, styles.btn)}>
           <span>
             <div className={styles.project_title}>
               <h1>{data.title}</h1>
               <h5>{data.description}</h5>
+            </div>
+
+            <div>
+              <p>
+                <FiGithub />
+              </p>
             </div>
           </span>
           <span>

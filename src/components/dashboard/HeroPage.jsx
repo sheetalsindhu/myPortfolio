@@ -5,9 +5,11 @@ function HeroPage() {
     <>
       <div className={styles.cont}>
         <div className={styles.name_section}>
-          <h1>A DEVELOPER</h1>
-          <h1> With </h1>
-          <h1>Design Insight</h1>
+          <h1 className={styles.h1}>DEVELOPER</h1>
+          <div className={styles.subHeading}>
+            <p className={styles.h2}> with </p>
+            <h1 className={styles.h3}>Design Insight</h1>
+          </div>
         </div>
 
         <div className={styles.image_section}>
