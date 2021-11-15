@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import "./App.css";
 import HeroPage from "./components/dashboard/HeroPage";
-import Quote from "./components/quote/quote";
+import About from "./components/about/About";
 import Projects from "./components/projects/Projects";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/Footer/Footer";
@@ -27,7 +27,7 @@ function App() {
       <div className="main">
         <HeroPage />
         <br />
-        <Quote />
+        <About />
         <br />
         <h1 className="featured">Featured Projects</h1>
         <Projects data={cultfit} />

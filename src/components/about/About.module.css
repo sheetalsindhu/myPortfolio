@@ -1,0 +1,29 @@
+.quote_section {
+  font-size: 12px;
+  line-height: 30px;
+  padding: 10px;
+  text-align: left;
+  margin-top: 30px;
+  font-style: italic;
+}
+
+.about_cont {
+  line-height: 30px;
+  text-align: left;
+}
+
+.about p {
+  font-weight: 500;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.skills {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.about_cont {
+  animation: slideup 0.7s ease-out;
+}
