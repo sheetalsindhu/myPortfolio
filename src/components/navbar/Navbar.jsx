@@ -4,11 +4,11 @@ function Navbar() {
   return (
     <>
       <div className={styles.navbar}>
-        <div>
-          <a href="/about">About</a>
+        <div className={styles.navLinks}>
+          <a href="#about">About</a>
         </div>
 
-        <div>
+        <div className={styles.navLinks}>
           <a href="/projects">Projects</a>
         </div>
       </div>

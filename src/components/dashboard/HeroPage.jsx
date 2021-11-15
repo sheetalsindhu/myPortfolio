@@ -11,7 +11,7 @@ function HeroPage() {
         </div>
 
         <div className={styles.image_section}>
-          <img src="./images/profile.jpg" alt="hero" />
+          <img src="./images/img.jpg" alt="SheetalSindhu" />
         </div>
       </div>
     </>

@@ -3,7 +3,7 @@ import styles from "./quote.module.css";
 function Quote() {
   return (
     <>
-      <div className={styles.about_cont}>
+      <div id="about" className={styles.about_cont}>
         <div className={styles.about}>
           <p>
             Hello! My name is Sheetal Sindhu. I am an independent developer &
