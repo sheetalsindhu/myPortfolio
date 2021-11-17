@@ -12,6 +12,7 @@ function Navbar() {
           <a href="#projects">Projects</a>
         </div>
       </div>
+      {/* <div className={styles.hr}></div> */}
     </>
   );
 }

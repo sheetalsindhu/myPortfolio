@@ -40,14 +40,15 @@
 * {
   font-family: "Satoshi", sans-serif;
   font-family: "Cabinet Grotesk", sans-serif;
+
+  /* font-family: "Roxborough"; */
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
 body {
-  background-color: #060606;
-  color: #d0d9ce;
+  background-color: #0f0f0f;
 }
 
 .featured {

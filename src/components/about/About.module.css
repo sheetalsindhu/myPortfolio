@@ -1,10 +1,23 @@
+:root {
+  --heading: #b9b9b9;
+  --subheading: #b9b9b9;
+  --description: #8d8c8c;
+}
+
 .quote_section {
-  font-size: 12px;
-  line-height: 30px;
+  line-height: 34px;
   padding: 10px;
-  text-align: left;
+  text-align: center;
   margin-top: 30px;
-  font-style: italic;
+  color: var(--heading);
+}
+
+#quote {
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 900;
+  /* font-family: "Telma", cursive; */
+  /* font-family: "EB Garamond", serif; */
 }
 
 .about_cont {
@@ -14,16 +27,125 @@
 
 .about p {
   font-weight: 500;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.content {
   font-size: 20px;
-  padding: 10px;
+  color: var(--subheading);
 }
 
 .skills {
   font-size: 20px;
   text-transform: uppercase;
-  padding: 10px;
+  color: var(--heading);
 }
 
-.about_cont {
-  animation: slideup 0.7s ease-out;
+.projects {
+  border-bottom: 1px solid #b9b9b933;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .about_cont {
+    width: 80%;
+    margin: auto;
+    line-height: 50px;
+    text-align: left;
+    margin-top: 50px;
+  }
+
+  .about p {
+    font-weight: 500;
+    /* padding: 10px; */
+  }
+
+  .skills {
+    font-size: 48px;
+    text-transform: uppercase;
+    /* padding: 10px; */
+    font-family: "Roxborough";
+    width: 340px;
+  }
+
+  .quote_section {
+    padding: 30px;
+    text-align: center;
+    margin-top: 30px;
+    /* background-color: pink; */
+    width: 90%;
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 100px;
+  }
+
+  #quote {
+    font-size: 120px;
+    line-height: 99px;
+    font-weight: 900;
+    /* font-family: "Telma", cursive; */
+  }
+
+  .otherSection {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    gap: 150px;
+    /* border-bottom: 1px solid #b9b9b933; */
+  }
+
+  .projects {
+    border-bottom: 1px solid #b9b9b933;
+    /* border-top: 1px solid #b9b9b933; */
+  }
+
+  .content {
+    font-size: 28px;
+  }
+
+  .aboutDiv {
+    margin-bottom: 30px;
+  }
+
+  .btn a {
+    background: none;
+    color: var(--heading);
+    font-family: "Roxborough";
+    height: 50px;
+    font-size: 20px;
+    width: 200px;
+    margin-bottom: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    padding: 12px;
+  }
+
+  .btn a {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .btn a:after {
+    content: "⇀";
+    position: absolute;
+    opacity: 0;
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .btn a:hover {
+    padding-right: 10px;
+    padding-left: 8px;
+  }
+
+  .btn a:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
 }

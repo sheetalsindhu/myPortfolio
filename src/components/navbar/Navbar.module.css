@@ -1,28 +1,36 @@
 .navbar {
   display: flex;
   width: 100%;
+  min-height: 70px;
   padding-top: 7px;
   justify-content: space-between;
   padding-bottom: 7px;
   padding-left: 10px;
   padding-right: 10px;
+  border-bottom: 1px solid #b9b9b933;
+  margin-bottom: 20px;
 }
 
 .navLinks a {
   font-size: 20px;
   font-weight: 600;
-  color: #d0d9ce;
+  color: #b9b9b9;
 }
 
-@media screen and (min-width: 992px) {
+/* .hr {
+  color: #b9b9b9;
+  height: 2px;
+  width: 100%;
+} */
+
+@media screen and (min-width: 768px) {
   .navbar {
     display: flex;
     width: 100%;
-    padding-top: 10px;
+    padding-top: 20px;
     justify-content: space-between;
     padding-bottom: 7px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: aquamarine;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }

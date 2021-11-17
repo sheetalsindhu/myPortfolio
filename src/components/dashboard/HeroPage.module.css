@@ -1,3 +1,9 @@
+:root {
+  --heading: #b9b9b9;
+  --subheading: #b9b9b9;
+  --description: #8d8c8c;
+}
+
 .cont {
   width: 100%;
   margin: auto;
@@ -10,10 +16,16 @@
 .h1 {
   font-size: 56px;
   font-weight: 900;
+  color: var(--heading);
 }
 
 .h2 {
   font-family: "Telma", cursive;
+  color: var(--subheading);
+}
+
+.h3 {
+  color: var(--heading);
 }
 
 .subHeading {
@@ -44,6 +56,29 @@
 @media screen and (min-width: 768px) {
   .name_section {
     font-size: 62px;
-    background-color: rgb(92, 92, 92);
+    /* background-color: rgb(92, 92, 92); */
+    line-height: 170px;
+  }
+
+  .h1 {
+    font-size: 288px;
+    font-weight: 900;
+    color: var(--heading);
+  }
+
+  .h2 {
+    /* font-family: "Telma", cursive; */
+    color: var(--subheading);
+  }
+
+  .h3 {
+    color: var(--heading);
+  }
+
+  .subHeading {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
   }
 }
