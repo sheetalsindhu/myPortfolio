@@ -9,10 +9,9 @@ function Projects() {
           <a href={data.github}>
             <div className={styles.project_title}>
               <h1>{data.title}</h1>
-              <h5>{data.description}</h5>
             </div>
             <div className={styles.project_info}>
-              <p>{}</p>
+              <p>{data.description}</p>
             </div>
           </a>
         </div>

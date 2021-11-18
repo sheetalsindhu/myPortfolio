@@ -2,6 +2,8 @@
   --heading: #b9b9b9;
   --subheading: #b9b9b9;
   --description: #8d8c8c;
+  --main-heading: "Roxborough";
+  --background: #0f0f0f;
 }
 
 .quote_section {
@@ -16,8 +18,6 @@
   font-size: 32px;
   line-height: 42px;
   font-weight: 900;
-  /* font-family: "Telma", cursive; */
-  /* font-family: "EB Garamond", serif; */
 }
 
 .about_cont {
@@ -36,18 +36,46 @@
   color: var(--subheading);
 }
 
+.skillsDiv {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
 .skills {
-  font-size: 20px;
-  text-transform: uppercase;
   color: var(--heading);
+  font-family: var(--main-heading);
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.otherSection {
+  margin-bottom: 40px;
+}
+
+.otherHalf p {
+  font-size: 16px;
 }
 
 .projects {
-  border-bottom: 1px solid #b9b9b933;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  margin-bottom: 10px;
 }
 
+.btn a {
+  background: none;
+  color: var(--heading);
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-family: var(--main-heading);
+  border-bottom: 1px solid var(--heading);
+  padding-bottom: 5px;
+}
+
+.btn {
+  margin: 40px 0px;
+}
+
+/* media  */
 @media screen and (min-width: 768px) {
   .about_cont {
     width: 80%;
@@ -59,14 +87,12 @@
 
   .about p {
     font-weight: 500;
-    /* padding: 10px; */
   }
 
-  .skills {
+  .skillsDiv {
     font-size: 48px;
     text-transform: uppercase;
-    /* padding: 10px; */
-    font-family: "Roxborough";
+    font-family: var();
     width: 340px;
   }
 
@@ -113,7 +139,7 @@
   .btn a {
     background: none;
     color: var(--heading);
-    font-family: "Roxborough";
+    font-family: var();
     height: 50px;
     font-size: 20px;
     width: 200px;

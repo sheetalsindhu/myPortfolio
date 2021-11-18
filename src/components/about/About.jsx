@@ -55,7 +55,7 @@ function About() {
 
           {/* skills section */}
           <div className={styles.otherSection}>
-            <div className={styles.skills}>
+            <div className={styles.skillsDiv}>
               <h4 className={styles.skills}>Skills</h4>
             </div>
             <div className={styles.otherHalf}>
@@ -68,7 +68,7 @@ function About() {
 
           {/* eduation section */}
           <div className={styles.otherSection}>
-            <div className={styles.skills}>
+            <div className={styles.skillsDiv}>
               <h4 className={styles.skills}>Education</h4>
             </div>
             <div className={styles.otherHalf}>
@@ -83,7 +83,7 @@ function About() {
 
           {/* Experince section */}
           <div className={styles.otherSection}>
-            <div className={styles.skills}>
+            <div className={styles.skillsDiv}>
               <h4 className={styles.skills}>Experience</h4>
             </div>
             <div className={styles.otherHalf}>

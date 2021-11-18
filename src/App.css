@@ -47,8 +47,16 @@
   margin: 0;
 }
 
+:root {
+  --heading: #b9b9b9;
+  --subheading: #b9b9b9;
+  --description: #8d8c8c;
+  --background: #0f0f0f;
+  --main-heading: "Roxborough";
+}
+
 body {
-  background-color: #0f0f0f;
+  background-color: var(--background);
 }
 
 .featured {
@@ -58,6 +66,9 @@ body {
   font-size: 20px;
   text-transform: uppercase;
   padding: 10px;
+  color: var(--heading);
+  font-family: var(--main-heading);
+  font-size: 24px;
 }
 
 html {

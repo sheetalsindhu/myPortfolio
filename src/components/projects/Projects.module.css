@@ -1,23 +1,44 @@
-.projects_section {
+:root {
+  --heading: #b9b9b9;
+  --subheading: #b9b9b9;
+  --description: #a7a7a7;
+  --main-heading: "Roxborough";
+  --background: #0f0f0f;
+}
+
+.projects_section a {
+  display: flex;
+  flex-direction: column;
   text-align: left;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #b9b9b942;
+}
+
+.projects_section {
+  /* background-color: rgb(6, 100, 69); */
+  margin-bottom: 20px;
   padding: 10px;
-  border-bottom: 1px solid #b9b9b9;
+  cursor: pointer;
 }
 
 .project_title {
-  font-size: 16px;
-  margin-bottom: 20px;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: var(--heading);
 }
 
 .project_info {
-  color: gray;
-  justify-self: right;
+  color: var(--description);
+  font-size: 14px;
 }
 
-.projects_section {
-  animation: slideup 0.7s ease-out;
-}
-
-.projects_section {
-  text-align: center;
+@media screen and (min-width: 768px) {
+  .projects_section a {
+    border-bottom: 1px solid #b9b9b9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 100px;
+  }
 }

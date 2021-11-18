@@ -1,3 +1,11 @@
+:root {
+  --heading: #b9b9b9;
+  --subheading: #b9b9b9;
+  --description: #8d8c8c;
+  --main-heading: "Roxborough";
+  --background: #0f0f0f;
+}
+
 .footer {
   border-top: 1px solid #d0d9ce;
   padding: 10px;
@@ -12,13 +20,13 @@
   flex-direction: row;
   margin-top: 70px;
   justify-content: space-between;
-  color: #d0d9ce;
+  color: var(--heading);
 }
 
 .links a {
-  color: gray;
+  color: var(--description);
   font-size: 16px;
-  /* color: white; */
+  text-decoration: none;
 }
 
 .tags {
@@ -26,6 +34,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+  color: var(--heading);
 }
 
 .middle_ft {
@@ -33,13 +42,12 @@
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+  color: var(--heading);
 }
 
-a {
-  color: inherit;
+.email a {
   text-decoration: none;
-  /* color: black; */
-  color: #d0d9ce;
+  color: var(--heading);
 }
 
 .contactMe {
@@ -48,6 +56,8 @@ a {
   line-height: 34px;
   margin-top: 50px;
   padding: 50px 10px 10px;
+  color: var(--heading);
+  text-decoration: none;
 }
 
 .contactMe h1 {

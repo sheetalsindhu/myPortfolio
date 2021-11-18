@@ -1,6 +1,8 @@
+import styles from "../Footer/Footer.module.css";
+
 function Contact() {
   return (
-    <div>
+    <div classname={styles.contactMe}>
       <h1>feel free </h1>
       <h1> to contact me </h1>
       <h1> if you have </h1>
