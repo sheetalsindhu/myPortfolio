@@ -50,9 +50,6 @@ function About() {
               <p className={styles.content}>
                 <strong> B.com </strong> - MDU (Aug 2017 - Nov 2020), Haryana
               </p>
-              {/* <p className={styles.duration}>
-                June 2017 - Nov 2020 | Rohtak, Haryana
-              </p> */}
             </div>
           </div>
 
@@ -67,9 +64,6 @@ function About() {
                   <strong>UI/UX Designer</strong> - Intensal (Dec 2020 - April
                   2021), Hong Kong
                 </p>
-                {/* <p className={styles.duration}>
-                  Dec 2020 - April 2021 | Hong Kong
-                </p> */}
               </div>
 
               <div className={styles.projects}>
@@ -77,9 +71,6 @@ function About() {
                   <strong>UI/UX Designer</strong> - TieInUp (Jan 2020 - Nov
                   2020), Malaysia
                 </p>
-                {/* <p className={styles.duration}>
-                  Jan 2020 - Nov 2020 | Malaysia
-                </p> */}
               </div>
             </div>
           </div>
