@@ -11,6 +11,7 @@
   flex-direction: column;
   text-align: left;
   padding-bottom: 15px;
+  text-decoration: none;
   border-bottom: 1px solid #b9b9b942;
 }
 
@@ -32,7 +33,19 @@
   font-size: 14px;
 }
 
-@media screen and (min-width: 768px) {
+.featured {
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 70px;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 10px;
+  color: var(--heading);
+  font-family: var(--main-heading);
+  font-size: 24px;
+}
+
+/* @media screen and (min-width: 768px) {
   .projects_section a {
     border-bottom: 1px solid #b9b9b9;
     display: flex;
@@ -41,4 +54,4 @@
     width: 100%;
     min-height: 100px;
   }
-}
+} */

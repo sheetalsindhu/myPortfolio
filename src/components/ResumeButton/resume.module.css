@@ -1,0 +1,51 @@
+:root {
+  --heading: #b9b9b9;
+  --subheading: #b9b9b9;
+  --description: #8d8c8c;
+  --main-heading: "Roxborough";
+}
+
+.btn {
+  background: none;
+  color: var(--heading);
+  font-size: 16px;
+  cursor: pointer;
+  font-family: var(--main-heading);
+  padding-bottom: 5px;
+  text-decoration: underline;
+}
+
+.btn {
+  margin: 60px 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .btn {
+    background: none;
+    color: var(--heading);
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: var(--main-heading);
+    display: inline-block;
+    text-decoration: underline;
+    margin-top: 120px;
+  }
+
+  .btn::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: var(--heading);
+    transition: width 0.3s;
+  }
+
+  .btn:hover::after {
+    width: 100%;
+  }
+
+  .btn:hover {
+    text-decoration: none;
+  }
+}

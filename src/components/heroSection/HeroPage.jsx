@@ -1,4 +1,5 @@
 import styles from "./HeroPage.module.css";
+import { Resume } from "../ResumeButton/Resume";
 
 function HeroPage() {
   return (
@@ -10,10 +11,7 @@ function HeroPage() {
             <p className={styles.h2}> with </p>
             <h1 className={styles.h3}>Design Insight</h1>
           </div>
-        </div>
-
-        <div className={styles.image_section}>
-          <img src="./images/img.jpg" alt="SheetalSindhu" />
+          <Resume />
         </div>
       </div>
     </>

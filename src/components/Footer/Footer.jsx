@@ -4,11 +4,12 @@ function Footer() {
   return (
     <>
       <div className={styles.contactMe}>
-        <h1>feel free </h1>
-        <h1>to contact me</h1>
-        <h1>if you have</h1>
-        <h1>any projects</h1>
-        <h1>to request</h1>
+        <h1 className={styles.contactMeHeading}>Get In Touch.</h1>
+        <div className={styles.emailAddress}>
+          <a href="mailto:sheetalsindhu99@gmail.com">
+            sheetalsindhu99@gmail.com
+          </a>
+        </div>
       </div>
 
       <div className={styles.footer}>
