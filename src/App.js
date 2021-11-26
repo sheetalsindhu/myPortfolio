@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import "./App.css";
 import HeroPage from "./components/heroSection/HeroPage";
 import About from "./components/about/About";
