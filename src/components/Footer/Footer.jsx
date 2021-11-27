@@ -37,10 +37,28 @@ function Footer() {
         </div>
 
         <div className={styles.links}>
-          <a href="https://github.com/sheetalsindhu">Github</a>
+          <a
+            href="https://github.com/sheetalsindhu"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
+          </a>
           <a href="mailto:sheetalsindhu99@gmail.com">Email</a>
-          <a href="https://www.linkedin.com/in/sheetalsindhu/">Linkdin</a>
-          <a href="https://dribbble.com/uiuxsheetal">Dribbble</a>
+          <a
+            href="https://www.linkedin.com/in/sheetalsindhu/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Linkdin
+          </a>
+          <a
+            href="https://dribbble.com/uiuxsheetal"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Dribbble
+          </a>
         </div>
       </div>
     </>
