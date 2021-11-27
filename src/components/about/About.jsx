@@ -1,5 +1,5 @@
 import styles from "./About.module.css";
-import { Resume } from "../ResumeButton/Resume";
+// import { Resume } from "../ResumeButton/Resume";
 
 function About() {
   return (
