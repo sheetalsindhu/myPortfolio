@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: column;
   text-align: left;
-  padding-bottom: 15px;
+  padding: 15px 0px;
   text-decoration: none;
   border-bottom: 1px solid #b9b9b942;
 }
@@ -30,13 +30,12 @@
 
 .project_info {
   color: var(--description);
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .featured {
   text-align: left;
   margin-bottom: 10px;
-  margin-top: 70px;
   font-size: 20px;
   text-transform: uppercase;
   padding: 10px;
@@ -55,3 +54,89 @@
     min-height: 100px;
   }
 } */
+
+.main {
+  padding-top: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .featured {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .project_title {
+    font-size: 32px;
+    position: relative;
+  }
+
+  .project_info {
+    font-size: 20px;
+    width: 700px;
+    padding-right: 20px;
+  }
+
+  .projectDiv1 a,
+  .projectDiv2 a,
+  .projectDiv3 a {
+    flex-direction: row !important;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    padding: 60px 0px;
+  }
+
+  .projectDiv1:hover {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(8, 8, 8, 0.705),
+        rgba(0, 0, 0, 0.555)
+      ),
+      url("https://c4.wallpaperflare.com/wallpaper/33/364/948/bodybuilding-bench-standing-training-exercise-wallpaper-preview.jpg");
+
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.8s;
+  }
+
+  .projectDiv2:hover {
+    background-image: linear-gradient(
+        to left,
+        rgba(8, 8, 8, 0.925),
+        rgba(0, 0, 0, 0.555)
+      ),
+      url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-movies-1614634680.jpg");
+
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.8s;
+  }
+
+  .projectDiv3:hover {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(8, 8, 8, 0.705),
+        rgba(0, 0, 0, 0.555)
+      ),
+      url("https://wallpaperaccess.com/full/2078959.jpg");
+
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.8s;
+  }
+
+  .projectDiv1 .project_title,
+  .projectDiv2 .project_title,
+  .projectDiv3 .project_title {
+    transition: 0.8s;
+  }
+
+  .projectDiv1:hover .project_title,
+  .projectDiv2:hover .project_title,
+  .projectDiv3:hover .project_title {
+    transform: translateX(20px);
+    transition: 0.8s;
+  }
+}

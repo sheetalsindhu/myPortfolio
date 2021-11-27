@@ -11,7 +11,9 @@ function HeroPage() {
             <p className={styles.h2}> with </p>
             <h1 className={styles.h3}>Design Insight</h1>
           </div>
-          <Resume />
+          <div className={styles.resumeBtn}>
+            <Resume />
+          </div>
         </div>
       </div>
     </>

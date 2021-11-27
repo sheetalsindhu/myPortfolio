@@ -26,8 +26,9 @@ html {
 
 @media screen and (min-width: 1200px) {
   .main {
-    width: 1200px;
+    width: 1400px;
     margin: auto;
-    background-color: rgb(233, 252, 255);
+    /* background-color: rgb(233, 252, 255); */
+    /* border: 1px red solid; */
   }
 }

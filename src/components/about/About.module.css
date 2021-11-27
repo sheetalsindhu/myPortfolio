@@ -23,6 +23,7 @@
 .about_cont {
   line-height: 30px;
   text-align: left;
+  padding-top: 50px;
 }
 
 .about p {
@@ -101,8 +102,6 @@
 
   .resume {
     padding-left: 10px;
-    margin-top: 20px;
-    margin-bottom: 0px;
   }
 
   .image_section {
@@ -122,7 +121,7 @@
 
   .otherSection {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     margin-top: 30px;
     margin-bottom: 100px;
     gap: 150px;
@@ -150,5 +149,79 @@
     font-size: 64px; */
     font-size: 72px;
     line-height: 65px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .image_section {
+    flex-shrink: 0;
+    order: 2;
+  }
+
+  .quote_section {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-bottom: 1px solid var(--heading);
+    border-top: 1px solid var(--heading);
+  }
+
+  #quote {
+    /* font-family: var(--main-heading);
+    font-size: 64px; */
+    font-size: 125px;
+    line-height: 113px;
+  }
+
+  /* .secondSection {
+    border: 1px solid blanchedalmond;
+    
+
+
+  } */
+
+  .skills {
+    font-size: 48px;
+    text-transform: uppercase;
+    width: 400px;
+  }
+
+  .otherSection {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    gap: 180px;
+  }
+
+  .otherHalf p {
+    font-size: 28px;
+    line-height: 60px;
+  }
+
+  .projects {
+    border-bottom: 1px solid #b9b9b933;
+  }
+
+  .about_cont {
+    text-align: left;
+    margin-top: 50px;
+  }
+
+  .content {
+    font-size: 36px;
+  }
+
+  .aboutDiv {
+    /* margin-bottom: 100px; */
+    display: flex;
+    gap: 20px;
+  }
+
+  .aboutMe {
+    width: 100%;
+    line-height: 60px;
   }
 }

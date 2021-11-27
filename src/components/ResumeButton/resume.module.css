@@ -23,13 +23,35 @@
   .btn {
     background: none;
     color: var(--heading);
-    font-size: 20px;
+    font-size: 32px;
     cursor: pointer;
     text-decoration: none;
     font-family: var(--main-heading);
     display: inline-block;
-    text-decoration: underline;
-    margin-top: 120px;
+  }
+
+  .btn::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: var(--heading);
+    transition: width 0.3s;
+  }
+
+  .btn:hover::after {
+    width: 100%;
+  }
+
+  .btn:hover {
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .btn {
+    font-size: 32px;
+    text-decoration: none;
   }
 
   .btn::after {

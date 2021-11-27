@@ -27,55 +27,57 @@ function About() {
                 there are always discoveries in it.
               </p>
 
-              <div className={styles.resume}>
+              {/* <div className={styles.resume}>
                 <Resume />
-              </div>
+              </div> */}
             </div>
           </div>
 
           {/* skills section */}
-          <div className={styles.otherSection}>
-            <div className={styles.skillsDiv}>
-              <h4 className={styles.skills}>Skills</h4>
-            </div>
-            <div className={styles.otherHalf}>
-              <p className={styles.infoContent}>
-                HTML / CSS / MongoDb / ExpressJS / React / JavaScript / Redux /
-                DSA / Bootstrap / User Interface Design / Prototyping
-              </p>
-            </div>
-          </div>
-
-          {/* eduation section */}
-          <div className={styles.otherSection}>
-            <div className={styles.skillsDiv}>
-              <h4 className={styles.skills}>Education</h4>
-            </div>
-            <div className={styles.otherHalf}>
-              <p className={styles.infoContent}>
-                <strong> B.com </strong> - MDU (Aug 2017 - Nov 2020), Haryana
-              </p>
-            </div>
-          </div>
-
-          {/* Experince section */}
-          <div className={styles.otherSection}>
-            <div className={styles.skillsDiv}>
-              <h4 className={styles.skills}>Experience</h4>
-            </div>
-            <div className={styles.otherHalf}>
-              <div className={styles.projects}>
+          <div className={styles.secondSection}>
+            <div className={styles.otherSection}>
+              <div className={styles.skillsDiv}>
+                <h4 className={styles.skills}>Skills</h4>
+              </div>
+              <div className={styles.otherHalf}>
                 <p className={styles.infoContent}>
-                  <strong>UI/UX Designer</strong> - Intensal (Dec 2020 - April
-                  2021), Hong Kong
+                  HTML / CSS / MongoDb / ExpressJS / React / JavaScript / Redux
+                  / DSA / Bootstrap / User Interface Design / Prototyping
                 </p>
               </div>
+            </div>
 
-              <div className={styles.projects}>
+            {/* eduation section */}
+            <div className={styles.otherSection}>
+              <div className={styles.skillsDiv}>
+                <h4 className={styles.skills}>Education</h4>
+              </div>
+              <div className={styles.otherHalf}>
                 <p className={styles.infoContent}>
-                  <strong>UI/UX Designer</strong> - TieInUp (Jan 2020 - Nov
-                  2020), Malaysia
+                  <strong> B.com </strong> - MDU (Aug 2017 - Nov 2020), Haryana
                 </p>
+              </div>
+            </div>
+
+            {/* Experince section */}
+            <div className={styles.otherSection}>
+              <div className={styles.skillsDiv}>
+                <h4 className={styles.skills}>Experience</h4>
+              </div>
+              <div className={styles.otherHalf}>
+                <div className={styles.projects}>
+                  <p className={styles.infoContent}>
+                    <strong>UI/UX Designer</strong> - Intensal (Dec 2020 - April
+                    2021), Hong Kong
+                  </p>
+                </div>
+
+                <div className={styles.projects}>
+                  <p className={styles.infoContent}>
+                    <strong>UI/UX Designer</strong> - TieInUp (Jan 2020 - Nov
+                    2020), Malaysia
+                  </p>
+                </div>
               </div>
             </div>
           </div>

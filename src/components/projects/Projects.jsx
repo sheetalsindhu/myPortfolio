@@ -1,23 +1,75 @@
 import styles from "./Projects.module.css";
-import Data from "../../data.json";
+// import Data from "../../data.json";
 
 function Projects() {
   return (
     <>
-      <div>
-        <h1 className={styles.featured}>Projects</h1>
-        {Data.map((data) => (
-          <div id="projects" className={styles.projects_section}>
-            <a href={data.github}>
+      <div id="projects" className={styles.main}>
+        <h1 className={styles.featured}>Featured Projects</h1>
+
+        <div className={styles.projects_section}>
+          <div className={styles.projectDiv1}>
+            <a
+              className={styles.projectDiv}
+              href="https://github.com/sheetalsindhu/cult-fit-project"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <div className={styles.project_title}>
-                <h1>{data.title}</h1>
+                <h1>Cult Fit Clone</h1>
               </div>
               <div className={styles.project_info}>
-                <p>{data.description}</p>
+                <p>
+                  At Cult, we make fitness fun and easy. We have best-in-class
+                  trainers & offer group workouts ranging from yoga to Boxing.
+                  You can book classes, follow workout videos, order cult sports
+                  gear, order healthy food.
+                </p>
               </div>
             </a>
           </div>
-        ))}
+
+          <div className={styles.projectDiv2}>
+            <a
+              className={styles.projectDiv}
+              href="https://github.com/sheetalsindhu/cult-fit-project"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className={styles.project_title}>
+                <h1>Movie Seach Engine</h1>
+              </div>
+              <div className={styles.project_info}>
+                <p>
+                  Seach your favourite movies and read all information about
+                  movie like release year, movie cast, duration and rating etc.
+                  I made this using movie api.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <div className={styles.projectDiv3}>
+            <a
+              className={styles.projectDiv}
+              href="https://github.com/sheetalsindhu/cult-fit-project"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className={styles.project_title}>
+                <h1>Tic Tac Toe</h1>
+              </div>
+              <div className={styles.project_info}>
+                <p>
+                  Tic-tac-toe is a game in which two players take turns in
+                  drawing either an ' O' or an ' X' in one square of a grid
+                  consisting of nine squares. The winner is the first player to
+                  get three of the same symbols in a row.
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
       </div>
     </>
   );
