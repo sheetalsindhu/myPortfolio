@@ -78,7 +78,6 @@
     text-align: center;
     line-height: 34px;
     margin-top: 40px;
-    /* padding: 50px 10px 10px; */
     color: var(--heading);
   }
 
@@ -95,7 +94,38 @@
   .middle_ft {
     text-align: left;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     margin-top: 20px;
+  }
+}
+
+@media screen and( min-width: 1100px) {
+  .footer {
+    background-color: aquamarine;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .tags {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .middle_ft {
+    font-size: 20px;
+  }
+
+  .email a {
+    font-size: 20px;
+  }
+
+  .emailAddress a {
+    font-size: 20px;
+  }
+
+  .contactMeHeading {
+    font-size: 72px;
+    margin-bottom: 32px;
+    margin-top: 40px;
   }
 }

@@ -162,25 +162,18 @@
     text-align: center;
     width: 90%;
     margin: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    border-bottom: 1px solid var(--heading);
-    border-top: 1px solid var(--heading);
+    margin-top: 150px;
+    margin-bottom: 150px;
+    border-bottom: 1px solid #b9b9b933;
+    border-top: 1px solid #b9b9b933;
   }
 
   #quote {
     /* font-family: var(--main-heading);
     font-size: 64px; */
-    font-size: 125px;
-    line-height: 113px;
+    font-size: 100px;
+    line-height: 100px;
   }
-
-  /* .secondSection {
-    border: 1px solid blanchedalmond;
-    
-
-
-  } */
 
   .skills {
     font-size: 48px;

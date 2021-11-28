@@ -79,13 +79,25 @@
 
   .projectDiv1 a,
   .projectDiv2 a,
-  .projectDiv3 a {
+  .projectDiv3 a,
+  .projectDiv4 a,
+  .projectDiv5 a {
     flex-direction: row !important;
     justify-content: space-between;
     position: relative;
     overflow: hidden;
     align-items: center;
     padding: 60px 0px;
+  }
+
+  .projectDiv1:hover,
+  .projectDiv2:hover,
+  .projectDiv3:hover,
+  .projectDiv4:hover,
+  .projectDiv5:hover {
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.8s;
   }
 
   .projectDiv1:hover {
@@ -95,10 +107,6 @@
         rgba(0, 0, 0, 0.555)
       ),
       url("https://c4.wallpaperflare.com/wallpaper/33/364/948/bodybuilding-bench-standing-training-exercise-wallpaper-preview.jpg");
-
-    background-size: cover;
-    background-position: bottom;
-    transition: 0.8s;
   }
 
   .projectDiv2:hover {
@@ -108,10 +116,6 @@
         rgba(0, 0, 0, 0.555)
       ),
       url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-movies-1614634680.jpg");
-
-    background-size: cover;
-    background-position: bottom;
-    transition: 0.8s;
   }
 
   .projectDiv3:hover {
@@ -121,21 +125,39 @@
         rgba(0, 0, 0, 0.555)
       ),
       url("https://wallpaperaccess.com/full/2078959.jpg");
+  }
 
-    background-size: cover;
-    background-position: bottom;
-    transition: 0.8s;
+  .projectDiv4:hover {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(8, 8, 8, 0.705),
+        rgba(0, 0, 0, 0.555)
+      ),
+      url("https://media.istockphoto.com/photos/smart-working-and-video-conference-picture-id1213470229?k=20&m=1213470229&s=612x612&w=0&h=XMOQcn9shfGYTCeIqU3d_egujpWZM34p8Nr5oOcf0Vg=");
+  }
+
+  .projectDiv5:hover {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(8, 8, 8, 0.705),
+        rgba(0, 0, 0, 0.555)
+      ),
+      url("https://www.thejusticeproject.org/wp-content/uploads/2017/03/Financial_Planning.jpg");
   }
 
   .projectDiv1 .project_title,
   .projectDiv2 .project_title,
-  .projectDiv3 .project_title {
+  .projectDiv3 .project_title,
+  .projectDiv4 .project_title,
+  .projectDiv5 .project_title {
     transition: 0.8s;
   }
 
   .projectDiv1:hover .project_title,
   .projectDiv2:hover .project_title,
-  .projectDiv3:hover .project_title {
+  .projectDiv3:hover .project_title,
+  .projectDiv4:hover .project_title,
+  .projectDiv5:hover .project_title {
     transform: translateX(20px);
     transition: 0.8s;
   }
