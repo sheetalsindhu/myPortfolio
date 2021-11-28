@@ -10,6 +10,40 @@ function Footer() {
             sheetalsindhu99@gmail.com
           </a>
         </div>
+
+        {/* <div className={styles.shortIcons}>
+          <a
+            href="https://github.com/sheetalsindhu"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Git
+          </a>
+          <a
+            href="https://www.linkedin.com/in/sheetalsindhu/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Li
+          </a>
+          <a
+            href="https://dribbble.com/uiuxsheetal"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Dr
+          </a>
+        </div> */}
+        <hr
+          className={styles.line}
+          style={{
+            width: "100%",
+            marginTop: "100px",
+            backgroundColor: "#b9b9b91a",
+            opacity: "10%",
+            marginLeft: 0,
+          }}
+        />
       </div>
 
       <div className={styles.footer}>

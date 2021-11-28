@@ -19,6 +19,7 @@
   left: 0;
   right: 0;
   background-color: var(--background);
+  z-index: 999;
 }
 
 .navLinks a {
@@ -48,17 +49,18 @@
     justify-content: space-between;
     padding-left: 40px;
     padding-right: 40px;
-    border-bottom: 1px solid #b9b9b91a;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: var(--background);
   }
 
   .navLinks a {
     font-size: 20px;
     font-weight: 600;
     color: var(--heading);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .navbar {
+    max-width: 1600px;
+    margin: auto;
   }
 }

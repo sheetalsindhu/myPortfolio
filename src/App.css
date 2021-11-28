@@ -30,5 +30,6 @@ html {
     margin: auto;
     /* background-color: rgb(233, 252, 255); */
     /* border: 1px red solid; */
+    cursor: default;
   }
 }
