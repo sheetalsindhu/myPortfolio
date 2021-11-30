@@ -44,22 +44,125 @@
   font-size: 24px;
 }
 
-/* @media screen and (min-width: 768px) {
-  .projects_section a {
-    border-bottom: 1px solid #b9b9b9;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    min-height: 100px;
-  }
-} */
-
 .main {
   padding-top: 60px;
 }
+@media screen and (min-width: 768px) {
+  .main {
+    max-width: 1024px;
+    margin: auto;
+  }
+
+  .featured {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .project_title {
+    font-size: 24px;
+    /* position: relative; */
+  }
+
+  .project_info {
+    font-size: 16px;
+    width: 400px;
+    padding-right: 10px;
+    text-align: right;
+  }
+
+  .projectDiv1 a,
+  .projectDiv2 a,
+  .projectDiv3 a,
+  .projectDiv4 a,
+  .projectDiv5 a {
+    flex-direction: row !important;
+    justify-content: space-between;
+    /* position: relative; */
+    overflow: hidden;
+    align-items: center;
+    padding: 60px 0px;
+    gap: 10px;
+  }
+
+  .projectDiv1:hover,
+  .projectDiv2:hover,
+  .projectDiv3:hover,
+  .projectDiv4:hover,
+  .projectDiv5:hover {
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.8s;
+  }
+
+  .projectDiv1:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(8, 8, 8, 0.705),
+        rgba(0, 0, 0, 0.555)
+      ),
+      url("https://c4.wallpaperflare.com/wallpaper/33/364/948/bodybuilding-bench-standing-training-exercise-wallpaper-preview.jpg");
+  }
+
+  .projectDiv2:hover {
+    background-image: linear-gradient(
+        to left,
+        rgba(8, 8, 8, 0.925),
+        rgba(0, 0, 0, 0.555)
+      ),
+      url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-movies-1614634680.jpg");
+  }
+
+  .projectDiv3:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(8, 8, 8, 0.705),
+        rgba(0, 0, 0, 0.555)
+      ),
+      url("https://wallpaperaccess.com/full/2078959.jpg");
+  }
+
+  .projectDiv4:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(8, 8, 8, 0.705),
+        rgba(0, 0, 0, 0.555)
+      ),
+      url("https://user-images.githubusercontent.com/77065070/143987216-434881f0-7e77-4779-9fbc-e64dcba2e143.png");
+  }
+
+  .projectDiv5:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(8, 8, 8, 0.589),
+        rgba(0, 0, 0, 0.979)
+      ),
+      url("https://www.thejusticeproject.org/wp-content/uploads/2017/03/Financial_Planning.jpg");
+  }
+
+  .projectDiv1 .project_title,
+  .projectDiv2 .project_title,
+  .projectDiv3 .project_title,
+  .projectDiv4 .project_title,
+  .projectDiv5 .project_title {
+    transition: 0.8s;
+  }
+
+  .projectDiv1:hover .project_title,
+  .projectDiv2:hover .project_title,
+  .projectDiv3:hover .project_title,
+  .projectDiv4:hover .project_title,
+  .projectDiv5:hover .project_title {
+    transform: translateX(20px);
+    transition: 0.8s;
+  }
+}
 
 @media screen and (min-width: 1200px) {
+  .main {
+    max-width: 1400px;
+    margin: auto;
+  }
   .featured {
     font-size: 40px;
     text-align: center;
@@ -75,6 +178,7 @@
     font-size: 20px;
     width: 700px;
     padding-right: 20px;
+    text-align: left;
   }
 
   .projectDiv1 a,
@@ -102,7 +206,7 @@
 
   .projectDiv1:hover {
     background-image: linear-gradient(
-        to bottom,
+        to right,
         rgba(8, 8, 8, 0.705),
         rgba(0, 0, 0, 0.555)
       ),
@@ -120,7 +224,7 @@
 
   .projectDiv3:hover {
     background-image: linear-gradient(
-        to bottom,
+        to right,
         rgba(8, 8, 8, 0.705),
         rgba(0, 0, 0, 0.555)
       ),
@@ -129,18 +233,18 @@
 
   .projectDiv4:hover {
     background-image: linear-gradient(
-        to bottom,
-        rgba(8, 8, 8, 0.705),
-        rgba(0, 0, 0, 0.555)
+        to right,
+        rgba(8, 8, 8, 0.623),
+        rgba(0, 0, 0, 0.719)
       ),
-      url("https://media.istockphoto.com/photos/smart-working-and-video-conference-picture-id1213470229?k=20&m=1213470229&s=612x612&w=0&h=XMOQcn9shfGYTCeIqU3d_egujpWZM34p8Nr5oOcf0Vg=");
+      url("https://user-images.githubusercontent.com/77065070/143987216-434881f0-7e77-4779-9fbc-e64dcba2e143.png");
   }
 
   .projectDiv5:hover {
     background-image: linear-gradient(
-        to bottom,
-        rgba(8, 8, 8, 0.705),
-        rgba(0, 0, 0, 0.555)
+        to right,
+        rgba(8, 8, 8, 0.589),
+        rgba(0, 0, 0, 0.678)
       ),
       url("https://www.thejusticeproject.org/wp-content/uploads/2017/03/Financial_Planning.jpg");
   }

@@ -11,6 +11,8 @@
   text-align: left;
   margin-top: 30px;
   color: var(--heading);
+  border-bottom: 1px solid #b9b9b933;
+  border-top: 1px solid #b9b9b933;
 }
 
 #quote {
@@ -84,22 +86,24 @@
     line-height: 50px;
     text-align: left;
     margin-top: 50px;
+    max-width: 1024px;
+    margin: auto;
   }
 
   .content {
-    font-size: 20px;
+    font-size: 28px;
   }
 
   .aboutDiv {
     margin-bottom: 100px;
     display: flex;
     gap: 10px;
-    align-items: center;
+    align-items: top;
   }
 
   .aboutMe {
     width: 100%;
-    line-height: 37px;
+    line-height: 40px;
   }
 
   .resume {
@@ -111,9 +115,9 @@
     width: 40%;
     height: 100%;
   }
-  /* .image_section {
+  .image_section {
     order: 2;
-  } */
+  }
 
   .skills {
     font-size: 32px;
@@ -140,21 +144,27 @@
 
   .quote_section {
     padding: 10px;
-    text-align: left;
-    width: 90%;
-    margin-top: 20px;
+    text-align: center;
+    max-width: 1024px;
+    margin: auto;
+    margin-top: 30px;
     margin-bottom: 50px;
+    border-bottom: 1px solid #b9b9b933;
+    border-top: 1px solid #b9b9b933;
   }
 
   #quote {
-    /* font-family: var(--main-heading);
-    font-size: 64px; */
+    /* font-family: var(--main-heading); */
     font-size: 72px;
     line-height: 65px;
   }
 }
 
 @media screen and (min-width: 1200px) {
+  .about_cont {
+    max-width: 1400px;
+    margin: auto;
+  }
   .image_section {
     flex-shrink: 0;
     order: 2;
@@ -163,6 +173,7 @@
   .quote_section {
     text-align: center;
     width: 90%;
+    max-width: 1400px;
     margin: auto;
     margin-top: 150px;
     margin-bottom: 150px;
