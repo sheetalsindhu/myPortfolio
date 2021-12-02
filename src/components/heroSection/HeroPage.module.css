@@ -88,16 +88,12 @@
   }
   .h1 {
     /* background-color: rgb(233, 252, 255); */
-    font-size: 240px;
+    font-size: 200px;
   }
 
   .h2,
   .h3 {
     font-size: 80px;
-  }
-
-  .subHeading {
-    /* margin-top: 10px; */
   }
 
   .resumeBtn {
