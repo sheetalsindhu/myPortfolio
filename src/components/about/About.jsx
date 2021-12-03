@@ -41,8 +41,8 @@ function About() {
               </div>
               <div className={styles.otherHalf}>
                 <p className={styles.infoContent}>
-                  HTML / CSS / MongoDb / ExpressJS / React / JavaScript / Redux
-                  / DSA / Bootstrap / User Interface Design / Prototyping
+                  React / JavaScript / Redux / HTML / CSS / MongoDb / ExpressJS
+                  / NextJS / DSA / Bootstrap / MaterialUI / GIT / UIUX
                 </p>
               </div>
             </div>

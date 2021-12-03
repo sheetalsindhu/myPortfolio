@@ -1,4 +1,5 @@
 import styles from "./Footer.module.css";
+import { BsArrowUpCircle } from "react-icons/bs";
 
 function Footer() {
   return (
@@ -49,14 +50,13 @@ function Footer() {
       <div className={styles.footer}>
         <div className={styles.tags}>
           <div>
-            <p>Front-end Development</p>
-            <p>Web Development</p>
-            <p>Design</p>
-            <p> UXUI</p>
+            <p>Full-Stack Development</p>
+            <p>Photography</p>
+            <p>User Interface Design</p>
           </div>
 
           <div>
-            <p>Sheetal Sindhu</p>
+            <p> Sheetal Sindhu &copy; 2021 </p>
           </div>
         </div>
 
