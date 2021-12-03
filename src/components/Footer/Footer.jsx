@@ -1,5 +1,4 @@
 import styles from "./Footer.module.css";
-import { BsArrowUpCircle } from "react-icons/bs";
 
 function Footer() {
   return (
