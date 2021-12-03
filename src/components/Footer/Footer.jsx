@@ -83,7 +83,7 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Linkdin
+            Linkedin
           </a>
           <a
             href="https://dribbble.com/uiuxsheetal"
