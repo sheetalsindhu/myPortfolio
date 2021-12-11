@@ -95,7 +95,7 @@ function Projects() {
           <div className={styles.projectDiv3}>
             <a
               className={styles.projectDiv}
-              href="https://github.com/sheetalsindhu/cult-fit-project"
+              href="https://github.com/sheetalsindhu/tic-tac-toe"
               target="_blank"
               rel="noopener noreferrer"
             >
