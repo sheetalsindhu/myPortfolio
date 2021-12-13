@@ -11,6 +11,7 @@ function About() {
               <img src="./images/img.jpg" alt="SheetalSindhu" />
             </div>
             <div className={styles.aboutMe}>
+              {/* <h1 className={styles.about_heading}>About Me</h1> */}
               <p className={styles.content}>
                 Hello! My name is
                 <strong> Sheetal Sindhu.</strong> I am an independent developer
@@ -83,11 +84,11 @@ function About() {
           </div>
 
           {/* quote section */}
-          <div className={styles.quote_section}>
+          {/* <div className={styles.quote_section}>
             <p id={styles.quote}>
               DEVELOPER with DESIGNER's EYE & DESIGNER with DEVELOPER's mind.
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
