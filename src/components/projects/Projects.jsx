@@ -8,6 +8,25 @@ function Projects() {
         <h1 className={styles.featured}>Featured Projects</h1>
 
         <div className={styles.projects_section}>
+          <div className={styles.projectDiv6}>
+            <a
+              className={styles.projectDiv}
+              href="https://github.com/sheetalsindhu/cult-fit-project"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className={styles.project_title}>
+                <h1>Epic Games Clone</h1>
+              </div>
+              <div className={styles.project_info}>
+                <p>
+                  Epic games is a gaming platform where user can buy and get
+                  different kinds of games.
+                </p>
+              </div>
+            </a>
+          </div>
+
           <div className={styles.projectDiv1}>
             <a
               className={styles.projectDiv}
