@@ -21,7 +21,9 @@ function Projects() {
               <div className={styles.project_info}>
                 <p>
                   Epic games is a gaming platform where user can buy and get
-                  different kinds of games.
+                  different kinds of games. The website is fully responsive and
+                  all interfaces are built focusing on UI and style with proper
+                  functionality.
                 </p>
               </div>
             </a>
