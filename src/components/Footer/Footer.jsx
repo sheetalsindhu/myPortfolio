@@ -61,7 +61,13 @@ function Footer() {
 
         <div className={styles.middle_ft}>
           <div className={styles.email}>
-            <a href="mailto:sheetalsindhu99@gmail.com">Contact Me</a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="mailto:sheetalsindhu99@gmail.com"
+            >
+              Contact Me
+            </a>
           </div>
 
           <div>

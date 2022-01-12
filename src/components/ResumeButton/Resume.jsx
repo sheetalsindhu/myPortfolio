@@ -8,7 +8,7 @@ export const Resume = () => {
           className={styles.btn}
           target="_blank"
           rel="noopener noreferrer"
-          href="https://drive.google.com/file/d/1yfFOydk7yxkU-qoNAWZSlst_zw1Y2y0Q/view?usp=sharing"
+          href="https://drive.google.com/file/d/1A0Z0er3yHVi6gGuWtv5kDexxWqnEbZWg/view"
         >
           Resume
         </a>

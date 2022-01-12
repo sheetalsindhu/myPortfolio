@@ -24,6 +24,9 @@ function Projects() {
                   different kinds of games. The website is fully responsive and
                   all interfaces are built focusing on UI and style with proper
                   functionality.
+                  <br />
+                  <br />
+                  React Js, Redux, Material UI , Node, Express, MongoDB
                 </p>
               </div>
             </a>
@@ -45,11 +48,13 @@ function Projects() {
                   trainers & offer group workouts ranging from yoga to Boxing.
                   You can book classes, follow workout videos, order cult sports
                   gear, order healthy food.
+                  <br />
+                  <br />
+                  HTML5, CSS, JavaScript, EJS, Mongo DB, Express, NodeJS
                 </p>
               </div>
             </a>
           </div>
-
           <div className={styles.projectDiv4}>
             <a
               className={styles.projectDiv}
@@ -66,6 +71,9 @@ function Projects() {
                   revolve around making the WFH/Hybrid work a wonderful
                   experience for its users, it is made with ❤️ for the WFH
                   Tribe!
+                  <br />
+                  <br />
+                  React, Javascript, HTML, CSS, Redux, Express, Mongoose, Axios
                 </p>
               </div>
             </a>
@@ -74,61 +82,21 @@ function Projects() {
           <div className={styles.projectDiv5}>
             <a
               className={styles.projectDiv}
-              href="https://github.com/sheetalsindhu/to-do-redux"
+              href="https://dev.voyage/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <div className={styles.project_title}>
-                <h1>To Do</h1>
+                <h1>Dev Voyage</h1>
               </div>
               <div className={styles.project_info}>
                 <p>
-                  To Do is a task management app to help you stay organized and
-                  manage your day-to-day. You can use Microsoft To Do to make
-                  shopping lists or task lists, take notes, record collections,
-                  plan an event, or set reminders to increase your productivity
-                  and focus on what matters to you.
-                </p>
-              </div>
-            </a>
-          </div>
-
-          <div className={styles.projectDiv2}>
-            <a
-              className={styles.projectDiv}
-              href="https://github.com/sheetalsindhu/search_movie"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className={styles.project_title}>
-                <h1>Movie Seach Engine</h1>
-              </div>
-              <div className={styles.project_info}>
-                <p>
-                  Seach your favourite movies and read all information about
-                  movie like release year, movie cast, duration and rating etc.
-                  I made this using movie api.
-                </p>
-              </div>
-            </a>
-          </div>
-
-          <div className={styles.projectDiv3}>
-            <a
-              className={styles.projectDiv}
-              href="https://github.com/sheetalsindhu/tic-tac-toe"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className={styles.project_title}>
-                <h1>Tic Tac Toe</h1>
-              </div>
-              <div className={styles.project_info}>
-                <p>
-                  Tic-tac-toe is a game in which two players take turns in
-                  drawing either an ' O' or an ' X' in one square of a grid
-                  consisting of nine squares. The winner is the first player to
-                  get three of the same symbols in a row.
+                  A multi-tenant application where a user can create a portfolio
+                  in 3 simple steps. SIGN IN. CREATE. SHARE. Kickstart your
+                  software development voyag
+                  <br />
+                  <br />
+                  UI/UX, Logo design, Typography, Prototyping, Responsive Layout
                 </p>
               </div>
             </a>

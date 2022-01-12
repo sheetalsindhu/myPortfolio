@@ -6,6 +6,17 @@
   --background: #0f0f0f;
 }
 
+.title,
+.title2 {
+  color: var(--subheading);
+  opacity: 50%;
+  font-family: "Telma", cursive;
+}
+
+.title2 {
+  margin-top: 30px;
+  font-size: 20px;
+}
 .projects_section a {
   display: flex;
   flex-direction: column;
@@ -68,7 +79,7 @@
     font-size: 16px;
     width: 400px;
     padding-right: 10px;
-    text-align: right;
+    text-align: left;
   }
 
   .projectDiv1 a,
@@ -139,7 +150,7 @@
         rgba(8, 8, 8, 0.589),
         rgba(0, 0, 0, 0.979)
       ),
-      url("https://www.thejusticeproject.org/wp-content/uploads/2017/03/Financial_Planning.jpg");
+      url("https://user-images.githubusercontent.com/77065070/149164557-27913e9b-4c35-421d-972b-e12155557f97.png");
   }
 
   .projectDiv6:hover {
@@ -260,7 +271,7 @@
         rgba(8, 8, 8, 0.589),
         rgba(0, 0, 0, 0.678)
       ),
-      url("https://www.thejusticeproject.org/wp-content/uploads/2017/03/Financial_Planning.jpg");
+      url("https://user-images.githubusercontent.com/77065070/149164557-27913e9b-4c35-421d-972b-e12155557f97.png");
   }
 
   .projectDiv6:hover {
