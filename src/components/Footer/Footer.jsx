@@ -49,13 +49,13 @@ function Footer() {
       <div className={styles.footer}>
         <div className={styles.tags}>
           <div>
-            <p>Full-Stack Development</p>
-            <p>Photography</p>
+            <p>Mobile Development</p>
+            <p>Web Development</p>
             <p>User Interface Design</p>
           </div>
 
           <div>
-            <p> Sheetal Sindhu &copy; 2021 </p>
+            <p> Sheetal Sindhu &copy; 2022 </p>
           </div>
         </div>
 
@@ -71,7 +71,7 @@ function Footer() {
           </div>
 
           <div>
-            <p> Haryana, India</p>
+            <p> Bangalore, India</p>
           </div>
         </div>
 

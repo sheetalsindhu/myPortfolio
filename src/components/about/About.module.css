@@ -6,6 +6,13 @@
   --background: #0f0f0f;
 }
 
+.plaza {
+  background: none;
+  cursor: pointer;
+  font-family: var(--main-heading);
+  text-decoration: none;
+}
+
 .quote_section {
   line-height: 30px;
   text-align: left;

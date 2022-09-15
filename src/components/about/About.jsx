@@ -42,8 +42,10 @@ function About() {
               </div>
               <div className={styles.otherHalf}>
                 <p className={styles.infoContent}>
-                  JavaScript / HTML / CSS / React / Redux / MongoDb / ExpressJS
-                  / Bootstrap / Material UI / GIT / User Interface Design
+                  JavaScript / ReactJS / React Native / TailwindCSS / Expo /
+                  React Native navigation TypeScript / NextJS / Redux / MongoDb
+                  / ExpressJS / Web - Mobile Development / UI/UX Design /
+                  Debugging
                 </p>
               </div>
             </div>
@@ -65,7 +67,23 @@ function About() {
               <div className={styles.skillsDiv}>
                 <h4 className={styles.skills}>Experience</h4>
               </div>
+
               <div className={styles.otherHalf}>
+                <div className={styles.projects}>
+                  <p className={styles.infoContent}>
+                    <strong>Frontend Engineer</strong> -{" "}
+                    <a
+                      style={{ textDecoration: "none", color: "#b9b9b9" }}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://www.linkedin.com/company/plaza-tech/"
+                    >
+                      Plaza
+                    </a>{" "}
+                    (Feb 2022 - Present), Bangalore
+                  </p>
+                </div>
+
                 <div className={styles.projects}>
                   <p className={styles.infoContent}>
                     <strong>UI/UX Designer</strong> - Intensal (Dec 2020 - April
