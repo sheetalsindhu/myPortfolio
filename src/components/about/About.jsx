@@ -43,9 +43,9 @@ function About() {
               <div className={styles.otherHalf}>
                 <p className={styles.infoContent}>
                   JavaScript / ReactJS / React Native / TailwindCSS / Expo /
-                  React Native navigation TypeScript / NextJS / Redux / MongoDb
-                  / ExpressJS / Web - Mobile Development / UI/UX Design /
-                  Debugging
+                  React Native navigation / TypeScript / NextJS / Redux /
+                  MongoDb / ExpressJS / Web - Mobile Development / UI/UX Design
+                  / Debugging
                 </p>
               </div>
             </div>

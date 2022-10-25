@@ -11,7 +11,7 @@ function Projects() {
           <div className={styles.projectDiv6}>
             <a
               className={styles.projectDiv}
-              href="https://github.com/sheetalsindhu/cult-fit-project"
+              href="https://epic-games-clone.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
